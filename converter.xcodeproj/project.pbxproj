@@ -38,6 +38,8 @@
 		148D433D18293E4A001FA98A /* gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 148D433A18293E4A001FA98A /* gift.png */; };
 		148D433E18293E4A001FA98A /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 148D433B18293E4A001FA98A /* cake.png */; };
 		148D433F18293E4A001FA98A /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = 148D433C18293E4A001FA98A /* beer.png */; };
+		148D434318294134001FA98A /* ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148D434118294134001FA98A /* ConverterViewController.m */; };
+		148D434418294134001FA98A /* ConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148D434218294134001FA98A /* ConverterViewController.xib */; };
 		14F09C831827F44900E70398 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F09C821827F44900E70398 /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +100,9 @@
 		148D433A18293E4A001FA98A /* gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift.png; sourceTree = "<group>"; };
 		148D433B18293E4A001FA98A /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
 		148D433C18293E4A001FA98A /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer.png; sourceTree = "<group>"; };
+		148D434018294134001FA98A /* ConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterViewController.h; sourceTree = "<group>"; };
+		148D434118294134001FA98A /* ConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterViewController.m; sourceTree = "<group>"; };
+		148D434218294134001FA98A /* ConverterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConverterViewController.xib; sourceTree = "<group>"; };
 		14F09C811827F44900E70398 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		14F09C821827F44900E70398 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +170,9 @@
 				1444096E1826F50D0089B7EA /* Main_iPhone.storyboard */,
 				144409711826F50D0089B7EA /* Main_iPad.storyboard */,
 				14F09C811827F44900E70398 /* ContentViewController.h */,
+				148D434018294134001FA98A /* ConverterViewController.h */,
+				148D434118294134001FA98A /* ConverterViewController.m */,
+				148D434218294134001FA98A /* ConverterViewController.xib */,
 				14F09C821827F44900E70398 /* ContentViewController.m */,
 				1464F8D11827DF1B00060273 /* LeftViewController.h */,
 				1464F8D21827DF1B00060273 /* LeftViewController.m */,
@@ -335,6 +343,7 @@
 				144409781826F50D0089B7EA /* Images.xcassets in Resources */,
 				1464F8CB1827DBEB00060273 /* swipe_guide2.psd in Resources */,
 				148783671827E21A00D17C42 /* View.xib in Resources */,
+				148D434418294134001FA98A /* ConverterViewController.xib in Resources */,
 				1464F8C71827DBEB00060273 /* PaperFoldResources.bundle in Resources */,
 				144409701826F50D0089B7EA /* Main_iPhone.storyboard in Resources */,
 				144409671826F50D0089B7EA /* InfoPlist.strings in Resources */,
@@ -358,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1464F8C91827DBEB00060273 /* PaperFoldView.m in Sources */,
+				148D434318294134001FA98A /* ConverterViewController.m in Sources */,
 				1464F8C51827DBEB00060273 /* MultiFoldView.m in Sources */,
 				1464F8C61827DBEB00060273 /* PaperFoldNavigationController.m in Sources */,
 				1464F8CE1827DBEB00060273 /* UIView+Screenshot.m in Sources */,

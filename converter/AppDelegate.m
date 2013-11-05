@@ -25,6 +25,11 @@
     PaperFoldNavigationController *paperFoldNavController = [[PaperFoldNavigationController alloc] initWithRootViewController:navController];
     [self.window setRootViewController:paperFoldNavController];
 
+    
+    // load the view from the xib
+    
+    
+    
     LeftViewController *leftViewController = [[LeftViewController alloc] init];
     UINavigationController *leftNavController = [[UINavigationController alloc] initWithRootViewController:leftViewController];
     [leftNavController setNavigationBarHidden:YES];
