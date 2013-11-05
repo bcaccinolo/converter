@@ -10,6 +10,7 @@
 #import "ContentViewController.h"
 #import "LeftViewController.h"
 #import "PaperFoldNavigationController.h"
+#import "ConverterViewController.h"
 
 @implementation AppDelegate
 
@@ -27,8 +28,8 @@
 
     
     // load the view from the xib
-    
-    
+    ConverterViewController *converterViewController = [[ConverterViewController alloc] initWithNibName:@"ConverterViewController" bundle:nil];
+    [paperFoldNavController.view addSubview:converterViewController.view];
     
     LeftViewController *leftViewController = [[LeftViewController alloc] init];
     UINavigationController *leftNavController = [[UINavigationController alloc] initWithRootViewController:leftViewController];
