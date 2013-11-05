@@ -35,6 +35,9 @@
 		1464F8CE1827DBEB00060273 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1464F8C21827DBEB00060273 /* UIView+Screenshot.m */; };
 		1464F8D41827DF1B00060273 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1464F8D21827DF1B00060273 /* LeftViewController.m */; };
 		148783671827E21A00D17C42 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148783661827E21A00D17C42 /* View.xib */; };
+		148D433D18293E4A001FA98A /* gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 148D433A18293E4A001FA98A /* gift.png */; };
+		148D433E18293E4A001FA98A /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 148D433B18293E4A001FA98A /* cake.png */; };
+		148D433F18293E4A001FA98A /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = 148D433C18293E4A001FA98A /* beer.png */; };
 		14F09C831827F44900E70398 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F09C821827F44900E70398 /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +95,9 @@
 		1464F8D11827DF1B00060273 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		1464F8D21827DF1B00060273 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		148783661827E21A00D17C42 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		148D433A18293E4A001FA98A /* gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift.png; sourceTree = "<group>"; };
+		148D433B18293E4A001FA98A /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
+		148D433C18293E4A001FA98A /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer.png; sourceTree = "<group>"; };
 		14F09C811827F44900E70398 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		14F09C821827F44900E70398 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +168,7 @@
 				14F09C821827F44900E70398 /* ContentViewController.m */,
 				1464F8D11827DF1B00060273 /* LeftViewController.h */,
 				1464F8D21827DF1B00060273 /* LeftViewController.m */,
+				148D433918293E2C001FA98A /* Images */,
 				148783661827E21A00D17C42 /* View.xib */,
 				144409771826F50D0089B7EA /* Images.xcassets */,
 				144409631826F50D0089B7EA /* Supporting Files */,
@@ -233,6 +240,16 @@
 				1464F8BC1827DBEB00060273 /* swipe_guide2.psd */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		148D433918293E2C001FA98A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				148D433A18293E4A001FA98A /* gift.png */,
+				148D433B18293E4A001FA98A /* cake.png */,
+				148D433C18293E4A001FA98A /* beer.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,13 +329,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				144409731826F50D0089B7EA /* Main_iPad.storyboard in Resources */,
+				148D433E18293E4A001FA98A /* cake.png in Resources */,
 				1464F8CA1827DBEB00060273 /* swipe_guide.psd in Resources */,
+				148D433D18293E4A001FA98A /* gift.png in Resources */,
 				144409781826F50D0089B7EA /* Images.xcassets in Resources */,
 				1464F8CB1827DBEB00060273 /* swipe_guide2.psd in Resources */,
 				148783671827E21A00D17C42 /* View.xib in Resources */,
 				1464F8C71827DBEB00060273 /* PaperFoldResources.bundle in Resources */,
 				144409701826F50D0089B7EA /* Main_iPhone.storyboard in Resources */,
 				144409671826F50D0089B7EA /* InfoPlist.strings in Resources */,
+				148D433F18293E4A001FA98A /* beer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
