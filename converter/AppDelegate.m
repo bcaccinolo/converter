@@ -20,16 +20,16 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-
+    
     ContentViewController *contentViewController = [[ContentViewController alloc] init];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:contentViewController];
-    PaperFoldNavigationController *paperFoldNavController = [[PaperFoldNavigationController alloc] initWithRootViewController:navController];
-    [self.window setRootViewController:paperFoldNavController];
-
     
     // load the view from the xib
     ConverterViewController *converterViewController = [[ConverterViewController alloc] initWithNibName:@"ConverterViewController" bundle:nil];
-    [paperFoldNavController.view addSubview:converterViewController.view];
+    [navController.view addSubview:converterViewController.view];
+    
+    PaperFoldNavigationController *paperFoldNavController = [[PaperFoldNavigationController alloc] initWithRootViewController:navController];
+    [self.window setRootViewController:paperFoldNavController];
     
     LeftViewController *leftViewController = [[LeftViewController alloc] init];
     UINavigationController *leftNavController = [[UINavigationController alloc] initWithRootViewController:leftViewController];
